@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "npm run build:github",
+    "build": "ng build",
     "build:github": "npm run delete:docs && npm run build:href && npm run copy:dist",
     "build:href": "ng build --base-href ./",
     "delete:docs": "del docs",
